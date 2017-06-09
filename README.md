@@ -12,9 +12,8 @@ To build a production-ready minimized bundle: `npm run build-prod`
 To run the test suite: `npm test`
 
 ## Code layout
-The Winston root directory contains the following subdirectories:
+The Winston root directory contains the production code including html, css and the bundled JavaScript application, as well as the following subdirectories:
 * `src`: This is where the source code lives
-* `bin`: This holds production code including html, css and the bundled JavaScript application
 * `test`: This contains the suite of tests (written using Jest)
 ## `src` directory layout
 The `src` directory contains the following subdirectories:

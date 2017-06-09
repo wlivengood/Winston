@@ -1,0 +1,87 @@
+body {
+	font-size: 10pt;
+	font-family: 'Montserrat', 'sans-serif';
+	color: black;
+}
+
+h1 {
+	margin: 0;
+	padding: 14px;
+}
+
+#board {
+	width: 700px;
+	height: 700px;
+}
+
+#board table {
+	border-spacing: 0;
+	cursor: default;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#board table tr th, #board table tr td {
+	text-align: center;
+	vertical-align: middle;
+}
+
+#board table tr th.file {
+	width: 80px;
+	height: 25px;
+}
+
+#board table tr th.rank {
+	width: 25px;
+	height: 80px;
+}
+
+#board table tr td {
+	width: 80px;
+	height: 80px;
+}
+
+#board table tr td.light {
+	background: darkgray;
+}
+
+#board table tr td.dark {
+	background: brown;
+}
+
+#board table tr td div {
+	font-size: 50px;
+}
+
+#board table tr td.white {
+	color: white;
+}
+
+#board table tr td.black {
+	color: black;
+}
+
+#board table tr td.from {
+	font-weight: bold;
+}
+
+#board table tr td.to {
+	box-shadow: inset 0 0 3px 3px yellow;
+}
+
+#board table tr td.to.king-castle:after {
+	content: "0-0";
+}
+
+#board table tr td.to.queen-castle:after {
+	content: "0-0-0";
+}
+
+#board table tr td div.turn:not(.can-move) {
+	cursor: not-allowed;
+}

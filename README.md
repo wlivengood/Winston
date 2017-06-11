@@ -1,7 +1,11 @@
 # Winston
 Winston is a chess engine and user interface written in JavaScript
+
+## Demo
+You can play against Winston [here](http://www.wlivengood.com/Winston), or build an instance on your own machine using the below instructions.
+
 ## Build
-You'll need node.js to run Winston on your machine.
+You'll need node.js to build Winston on your machine.
 
 To install all dependencies: `npm install`
 
